@@ -1,3 +1,10 @@
+/**
+ * The class implements a simple number guessing game. User enters numbers
+ * each of which can be viewed as an implicit question ("What's your guess?"),
+ * and the program reports whether the user's guess turned out to be more or less than guessed
+ * numbers. The user can always get to the answer ("You win!") in less than 20 questions.
+ **/
+
 public class TwentyQuestions
 {
     public static void main(String[] args)
