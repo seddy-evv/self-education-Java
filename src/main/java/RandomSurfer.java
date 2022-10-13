@@ -16,9 +16,10 @@ public class RandomSurfer
     public static void main(String[] args)
     {
 //        int trials = Integer.parseInt(args[0]);
+        StdOut.println("Enter the number of movements: ");
         int trials = StdIn.readInt();
+        StdOut.println("Enter the number of pages: ");
         int n = StdIn.readInt();
-        StdIn.readInt();
         double[][] p = new double[n][n];
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
