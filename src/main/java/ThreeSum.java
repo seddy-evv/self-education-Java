@@ -1,3 +1,9 @@
+/**
+ * The countTriples() method counts in a[] the number of triplets that sum to 0 (ignoring integer overflow).
+ * The test client calls countTriples() for integers from standard input and outputs triplets if
+ * the number of triplets is small.
+ **/
+
 public class ThreeSum {
     public static void printTriples(int[] a)
     {int n = a.length;
@@ -22,6 +28,7 @@ public class ThreeSum {
 
     public static void main(String[] args)
     {
+        StdOut.println("Enter the numbers: ");
         int[] a = StdIn.readAllInts();
         int count = countTriples(a);
         StdOut.println(count);
