@@ -1,3 +1,10 @@
+/**
+ * The class prints to the standard output the relationship table for the sum of triples problem.
+ * The table shows how doubling the task size affects the execution time of the ThreeSum.countTriples() method call;
+ * the task size is initially 512 and is doubled for each table row. The experiment leads us to the hypothesis
+ * that the execution time increases by a factor of eight when the size of the input data is doubled.
+ **/
+
 public class DoublingTest {
     public static double tineTrial(int n)
     {
