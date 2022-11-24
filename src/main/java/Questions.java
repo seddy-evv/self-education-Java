@@ -1,3 +1,17 @@
+/**
+ * The program uses binary search to play: you pick a number and the program tries to guess it.
+ * She receives an integer k as a command line argument and offers to guess a number
+ * from the range from 0 to n - 1, where n = pow(2, k).
+ * The program is guaranteed to guess the answer in k questions.
+ *
+ * lo - smallest possible value
+ * hi - lo - highest possible value
+ * mid - middle
+ * k - number of questions
+ * n - number of possible values
+ **/
+
+
 public class Questions {
     public static int binarySearch(int lo, int hi)
     {
@@ -13,6 +27,7 @@ public class Questions {
     public static void main(String[] args)
     {
 //        int k = Integer.parseInt(args[0]);
+        StdOut.println("Enter the number of questions: ");
         int k = StdIn.readInt();
         int n = (int) Math.pow(2, k);
         StdOut.print("Think of a number ");
