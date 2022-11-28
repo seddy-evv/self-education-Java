@@ -1,3 +1,11 @@
+/**
+ * The search() method uses a binary search to return the index of the string key in the sorted array
+ * (or -1 if the key is not in the array). The test client is an exclusion filter that reads the (sorted)
+ * whitelist from the file given by the command line argument and outputs words from standard input that
+ * are not on the whitelist.
+ *
+ **/
+
 public class BinarySearch {
     public static int search(String key, String[] a)
     { return search(key, a, 0, a.length); }
