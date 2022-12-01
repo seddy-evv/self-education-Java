@@ -1,3 +1,11 @@
+/**
+ * The sort() function implements insertion sort. It sorts arrays of any data type that implements
+ * the Comparable interface (and therefore contains the compareTo() method). The implementation of Insertion.sort()
+ * is only suitable for small and/or nearly ordered arrays; for large unordered arrays it works
+ * too slow.
+ *
+ **/
+
 public class Insertion {
     public static void sort(Comparable[] a)
     {
