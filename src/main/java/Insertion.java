@@ -21,6 +21,7 @@ public class Insertion {
 
     public static void main(String[] args)
     {
+        StdOut.println("Enter the strings for sort: ");
         String[] a = StdIn.readAllStrings();
         sort(a);
         for (int i = 0; i < a.length; i++)
