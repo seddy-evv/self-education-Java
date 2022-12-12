@@ -1,3 +1,9 @@
+/**
+ * The sort() function implements the merge sort algorithm. It sorts arrays
+ * with any data type that implements the Comparable interface. Unlike Insertion.sort()
+ * this implementation is also suitable for very large arrays.
+ **/
+
 public class Merge {
     public static void sort(Comparable[] a)
     {
@@ -24,6 +30,7 @@ public class Merge {
 
     public static void main(String[] args)
     {
+        StdOut.println("Enter the strings for sort: ");
         String[] a = StdIn.readAllStrings();
         sort(a);
         for (int i = 0; i < a.length; i++)
