@@ -11,7 +11,7 @@ public class ArrayListCls {
         List<String> list = new ArrayList<String>();
         List<Integer> numbers = new ArrayList<Integer>();
 
-        // Immutable Lists using List.of()
+        // Immutable Lists using List.of() (JDK 9+)
         // List<String> immutableList = List.of("Apple", "Banana", "Cherry");
 
         // Diamond syntax (Java 7+):

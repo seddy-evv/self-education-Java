@@ -3,6 +3,7 @@ package syntax;
 public class Array {
     public static void main(String[] args)
     {
+        // Array has a constant number of elements
         // Syntax for Declaring an Array:
         // dataType[] arrayName;
 
@@ -16,6 +17,7 @@ public class Array {
 
         int[] numbers2 = {1, 2, 3, 4, 5};
         numbers2[2] = 50;
+        numbers2[3] = 50;
         int x = numbers2[2];
         System.out.println(x);
         int len = numbers2.length;
