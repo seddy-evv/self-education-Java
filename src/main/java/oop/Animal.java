@@ -8,6 +8,7 @@ public class Animal {
 
     // Constructor
     public Animal(String name) {
+        System.out.println("Silence...");
         this.name = name;
         this.upperName = name.toUpperCase();
     }
