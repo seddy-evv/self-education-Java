@@ -20,8 +20,8 @@ public class Dog extends Animal {
     }
 
     public static void main(String[] args) {
-        // lion is Object (instance of a class)
-        Dog dog = new Dog("Bak");
+        // dog is Object (instance of a class)
+        Animal dog = new Dog("Bak"); // Polymorphism
 //        dog.makeSound();
 
     }

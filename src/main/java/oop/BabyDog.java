@@ -16,10 +16,18 @@ public class BabyDog extends Dog {
         System.out.println("Weeping...");
     }
 
+    // Method overloading, part of Polymorphism
+    public void makeSound(int i) {
+        System.out.println(name + " makes a quiet sound " + i + " times.");
+    }
+
     public static void main(String[] args) {
         // lion is Object (instance of a class)
         BabyDog babyDog = new BabyDog("Bak Jun");
         // Accessing protected method
         babyDog.display();
+        // Polymorphism
+        babyDog.makeSound();
+        babyDog.makeSound(3);
     }
 }
