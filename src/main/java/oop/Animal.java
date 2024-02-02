@@ -9,7 +9,7 @@ public class Animal {
     // Constructor
     public Animal(String name) {
         System.out.println("Silence...");
-        this.name = name;
+        this.name = name; // Using 'this' to refer to instance variables
         this.upperName = name.toUpperCase();
     }
 

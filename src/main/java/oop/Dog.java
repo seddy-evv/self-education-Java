@@ -13,6 +13,10 @@ public class Dog extends Animal {
         System.out.println("Barking...");
     }
 
+    void loudBark() {
+        System.out.println("Barking loudly");
+    }
+
     // parent Method Overriding
     @Override
     public void makeSound() {

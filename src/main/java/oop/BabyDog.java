@@ -21,6 +21,10 @@ public class BabyDog extends Dog {
         System.out.println(name + " makes a quiet sound " + i + " times.");
     }
 
+    public void makeLoudSound() {
+        super.loudBark(); // Using 'super' to call the makeLoudSound method of Dog class
+    }
+
     public static void main(String[] args) {
         // lion is Object (instance of a class)
         BabyDog babyDog = new BabyDog("Bak Jun");
