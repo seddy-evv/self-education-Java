@@ -16,11 +16,6 @@ public class BabyDog extends Dog {
         System.out.println("Weeping...");
     }
 
-    // Method overloading, part of Polymorphism
-    public void makeSound(int i) {
-        System.out.println(name + " makes a quiet sound " + i + " times.");
-    }
-
     public void makeLoudSound() {
         super.loudBark(); // Using 'super' to call the makeLoudSound method of Dog class
     }

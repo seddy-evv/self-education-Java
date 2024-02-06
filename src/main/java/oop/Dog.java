@@ -17,10 +17,15 @@ public class Dog extends Animal {
         System.out.println("Barking loudly");
     }
 
-    // parent Method Overriding
+    // parent Method Overriding, part of Polymorphism (Run-time Polymorphism)
     @Override
     public void makeSound() {
         System.out.println("Bark");
+    }
+
+    // Method Overloading, part of Polymorphism (Compile-time Polymorphism)
+    public void makeSound(int i) {
+        System.out.println(name + " makes a quiet sound " + i + " times.");
     }
 
     public static void main(String[] args) {
