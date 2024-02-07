@@ -16,6 +16,7 @@ public class Zoo {
         // lion is Object (instance of a class)
         Animal lion = new Animal("Leo");
         lion.makeSound();
+        lion.setUpperName("big");
         System.out.println(lion.getUpperName());
         lion.display();
 
@@ -23,7 +24,6 @@ public class Zoo {
         chamomile.print();
 
         myStaticMethod();
-
         Zoo newZoo = new Zoo();
         newZoo.myPublicMethod();
     }

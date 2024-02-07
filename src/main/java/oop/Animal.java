@@ -13,8 +13,14 @@ public class Animal {
         this.upperName = name.toUpperCase();
     }
 
+    // Getter method
     public String getUpperName() {
         return upperName;
+    }
+
+    // Setter method
+    public void setUpperName(String prefix) {
+        this.upperName = prefix + this.upperName;
     }
 
     // The protected display() method/field is accessible within all classes in the same package and
