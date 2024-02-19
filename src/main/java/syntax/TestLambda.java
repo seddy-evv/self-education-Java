@@ -19,12 +19,12 @@ public class TestLambda {
         // (parameters) -> {statements;}
 
         // Java 8+
-        // list.forEach(n -> System.out.println(n));
+         list.forEach(n -> System.out.println(n));
 
         String[] strings = {"One", "Two", "Three"};
         // Java 8+
-        // Arrays.sort(strings, (String a, String b) -> {
-            // return a.compareTo(b);
-        // });
+         Arrays.sort(strings, (String a, String b) -> {
+             return a.compareTo(b);
+         });
     }
 }

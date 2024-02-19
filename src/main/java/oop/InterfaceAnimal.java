@@ -7,12 +7,12 @@ interface  InterfaceAnimal {
     void makeSound();
 
     // Default method in the interface (Java 8+)
-//    default void breathe() {
-//        System.out.println("I can breathe.");
-//    }
+    default void breathe() {
+        System.out.println("I can breathe.");
+    }
 
     // Static method in the interface (Java 8+)
-//    static void info() {
-//        System.out.println("I am an animal.");
-//    }
+    static void info() {
+        System.out.println("I am an animal.");
+    }
 }
