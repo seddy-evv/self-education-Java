@@ -5,6 +5,10 @@ public class Animal {
     String name;
     // The private field upperName are accessible only within the Animal class it's declared in
     private String upperName;
+    // The transient attributes and methods are skipped when serializing the object containing them
+    private transient int age;
+    // The value of an attribute is not cached thread-locally, and is always read from the "main memory"
+    public volatile long x = 2222222222222222222L;
 
     // Constructor
     public Animal(String name) {
@@ -16,6 +20,10 @@ public class Animal {
     // Getter method
     public String getUpperName() {
         return upperName;
+    }
+    // The synchronized methods can only be accessed by one thread at a time
+    public synchronized String getName() {
+        return name;
     }
 
     // Setter method
